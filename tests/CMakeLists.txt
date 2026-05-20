@@ -1,6 +1,7 @@
 add_executable(benquads-dsp-tests
     main.cpp
     test_smoother.cpp
+    test_gain.cpp
 )
 
 target_link_libraries(benquads-dsp-tests
